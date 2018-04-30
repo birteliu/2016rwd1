@@ -1,0 +1,29 @@
+wow.js + animate.css 使用方式
+<div class="wow slideInLeft"></div>
+可自定義 data-wow 屬性
+
+過渡時間
+data-wow-duration="2s"
+
+過渡延遲
+data-wow-delay="5s"
+
+過渡偏移
+data-wow-offset="10"
+
+過渡迭代
+data-wow-interation="10"
+or
+data-wow-interation="infinite"
+
+JS
+    wow = new WOW(
+          {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       true,       // default
+            live:         true        // default
+            }
+          )
+          wow.init();

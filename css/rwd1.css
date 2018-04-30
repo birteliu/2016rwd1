@@ -1,0 +1,660 @@
+/*
+web basic colors
+background-color: #2B061E;
+background-color: #a173a8;
+background-color: #f6f6f6;
+background-color: #D81E5B;
+background-color: #595758;
+*/
+#page {
+	background-color: #F9F7F9;
+
+}
+/*=========== ui setting ============*/
+.ui-bgc-light-m {
+	background-color: #eee;
+}
+.ui-bgc-light {
+	background-color: #F9F7F9;
+}
+.ui-bgc-dark {
+	background-color: #D1423A;
+	color: #F9F7F9;
+}
+a {
+	-webkit-transition: all ease-in-out .35s;
+	-o-transition: all ease-in-out .35s;
+	transition: all ease-in-out .35s;
+	text-decoration: none;
+}
+.ui-btn-d, .ui-btn-l {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-width: 140px;
+	margin-bottom: 25px;
+	padding: 8px 1em;
+	text-align: center;
+	text-decoration: none;
+
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	font-weight: bold;
+	line-height: 1.8;
+}
+.p-color{
+    color: #2A2B2C;
+}
+.ui-btn-d {
+	background-color: #D1423A;
+	color: #F9F7F9;
+}
+.ui-btn-l {
+	background-color: #D1423A;
+	color:  #F9F7F9;
+}
+*[class*="ui-btn"]:hover {
+	background-color: #AA352F;
+	color: #F9F7F9;
+}
+.ui-linkNormal {
+	display: inline-block;
+	vertical-align: middle;
+	color: #aaa;
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 2;
+}
+.ui-linkNormal i, .ui-linkNormal:hover {
+	-webkit-transition: all ease-in-out;
+	-o-transition: all ease-in-out;
+	transition: all ease-in-out;
+	color: #aaa;
+}
+.ui-r-btn {
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 50px;
+	height: 50px;
+	margin: -5px 5px 5px 5px;
+	padding: 15px 0;
+	content: " ";
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 50%;
+	background-color: #aaa;
+	-webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255.05);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255.05);
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+	font-size: 20px;
+	line-height: 1;
+}
+.ui-r-btn:hover {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	background-color: #f6c000;
+}
+.ui-r-btn:hover i {
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.ui-font-black {
+	color: #212121;
+}
+.ui-font-black7 {
+	color: #727272;
+}
+.ui-font-black3 {
+	color: #b6b6b6;
+}
+
+
+.ui-link {
+	display: inline-block;
+	line-height: 1.6;
+	padding: 3px 0 1px 0;
+	border-bottom: 1px dotted #F74E46;
+	color: #F74E46;
+	word-break: break-all;
+}
+.ui-link:hover {
+	color: #AA352F;
+	border-color:#AA352F;
+}
+
+.ui-img100 {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+/*=========== page frame setting ============*/
+img[alt*="logo"] {
+	display: inline-block;
+	width: 150px;
+	margin: 0;
+}
+.logo-s {
+    width: 80%;
+    display:block;
+    margin: 10px auto;
+}
+nav, nav + * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*=========== menu + main-region setting ============*/
+nav {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	float: left;
+	width: 12%;
+	min-width: 280px;
+	height: 100vh;
+	border-right: 1px solid #E0DEE0;
+
+}
+nav .gw-12 {
+	margin-bottom: -1px;
+	border-bottom: 1px solid #E0DEE0;
+}
+/*=========== nav menu setting ============*/
+.ui-menu {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 40% 0 20px 0;
+
+}
+
+.ui-menu li a {
+	display: block;
+	padding: 10px .8em;
+	-webkit-transition: all .35s ease .1s;
+	-o-transition: all .35s ease .1s;
+	transition: all .35s ease .1s;
+	text-decoration: none;
+	color: #2A2B2C;
+	border-left: 8px solid transparent;
+	font-size: .95em;
+	line-height: 2.4;
+	border: 1px solid #E0DEE0;
+	border-left: none;
+	border-right:none;
+	text-align: center;
+}
+.ui-menu li + li a {
+	border-top:none;
+}
+.ui-menu li a:hover {
+	background-color: #EDEAED;
+}
+.active {  /*和js的2016rwd.anchor.js串聯*/
+	border-right: 1px solid #F9F7F9;
+	-webkit-transform: translateX(3px);
+	-ms-transform: translateX(3px);
+	-o-transform: translateX(3px);
+	transform: translateX(3px);
+	background-color: #F9F7F9;
+}
+/*=========== header setting ============*/
+header {
+	position: relative;
+	height: 100vh;
+	color:  #F74E46;
+	/*z-index: 1;*/
+
+	background: url("../images/headerimg.jpg") no-repeat center center;
+	-webkit-background-size: cover; /*webkit是寫給safari的*/
+	background-size: cover;
+}
+header .logo-graphic {
+	position: absolute;
+	z-index: 0;
+	width: 200px;
+	height: 85px;
+	bottom: 25%;
+	background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+	left: -webkit-calc(50% - 100px);  /*70px是寬的一半*/
+	left: -moz-calc(50% - 100px);
+	left: -o-calc(50% - 100px);
+	left: -ms-calc(50% - 100px);
+	left: calc(50% - 100px);
+}
+header, header  * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header > .ng-6 {
+	z-index: 0;
+	position: relative;
+	top:0;
+	bottom:0;
+	min-height: 100vmin;
+	border-bottom: 1px solid #d5cdd6;
+	overflow: hidden;
+}
+header > .ng-6:last-of-type {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #F9F7F9;
+}
+header > .ng-6 .mask {
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all ease-in-out .35s;
+	-o-transition: all ease-in-out .35s;
+	transition: all ease-in-out .35s;
+}
+.mask i {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 43% auto;
+	text-align: center;
+	font-size: 60px;
+}
+header .ng-6:first-of-type:hover .mask{  /*滑鼠滑過去後mask往上跑*/
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	transform: translateY(-100%);
+	opacity: 0;
+}
+header .ng-6:last-of-type:hover .mask{  /*滑鼠滑過去後mask往下跑*/
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	transform: translateY(100%);
+	opacity: 0;
+}
+header h1 {
+	font-size: 4vw;
+	line-height: 1.2;
+
+	padding: 6% 15px;
+}
+header h1 sup {
+	margin: 0 auto 12% auto;
+	font-size: 20px;
+}
+header ul, header li, header li a {
+	display: block;
+	width: 100%;
+	float: left;
+}
+header ul {
+	border-top: 1px solid #ded3df;
+}
+header li a {
+	border-bottom: 1px solid #ded3df;
+	text-align: center;
+	padding: 12px 10px 10px 10px;
+	display: block;
+	line-height: 2;
+	font-size: 1em;
+}
+header li a:hover {
+	background-color: #EDEAED;
+}
+header .ng-6:first-of-type p {  /*Click to see more*/
+	position: absolute;
+	bottom: 0;
+	color: #b6b6b6;
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-size: 1em;
+	padding: 20px 0 10px 0;
+}
+header .ng-6:first-of-type p a:hover {  /*Click to see more*/
+	color:  #2A2B2C;
+}
+header h6 {
+	float: none;
+	margin: 35% auto 20px auto;
+	width: 60%;
+	min-width: 200px;
+	padding: 10px 15px;
+}
+
+/*=========== svg setting ============*/
+.logo-bg {
+	display: block;
+	width: 100%;
+	height: 75px;
+	margin: 0;
+
+}
+.logo-graphic {
+	display: block;
+}
+
+
+/*=========== main-region article setting ============*/
+.main-region {  /*計算主要內容的寬度*/
+	position: relative;
+	float: right;
+	width: calc(100% - 280px);  /*280px是nav的寬度,所以用100%減去280px得到內容寬度*/
+	width: -webkit-calc(100% - 280px); /*calc=calculate計算式*/
+	width: -o-calc(100% - 280px);
+	width: -moz-calc(100% - 280px);
+	width: -ms-calc(100% - 280px);
+	min-height: 100vmin;
+	margin-left: 280px;
+	-webkit-transition: all;
+	-o-transition: all;
+	transition: all;
+}
+.main-region .container, 
+.main-region .row-container {
+	width: 92%;}
+
+article a.gw-12,  
+article a.gw-12 *{
+	-webkit-transition: all ease-in-out .35s;
+	-o-transition: all ease-in-out .35s;
+	transition: all ease-in-out .35s;
+}
+
+article .container a.gw-12 {
+	position: relative;
+	text-align: center;
+	background-color: #000;
+
+}
+article h2 {
+	color: #2A2B2C;
+}
+article h5 {
+	color:#F74E46;
+}
+.ani-info {
+	display: block;
+/*	background-color: #F74E46;*/
+	padding: 10px 0;
+/*	color: #EEE6D7;*/
+	margin: 0 auto;
+	width: 140px;
+    border: 5 5 5 5px
+	text-align: center;
+	position: absolute;
+	left: -webkit-calc(50% - 70px);
+	left: -moz-calc(50% - 70px);
+	left: -o-calc(50% - 70px);
+	left: -ms-calc(50% - 70px);
+	left: calc(50% - 70px);
+	bottom: 0;
+	opacity:0;
+	font-size: .95em;
+}
+article .ng-6{
+    margin-bottom: 1em!important;
+    margin-top: 1em!important;
+}
+article .ng-6 a:hover img{
+	opacity: .5;
+
+}
+article .ng-6 a:hover .ani-info{
+	bottom: 40%;
+	opacity: 1;
+}
+article .ng-6:nth-child(odd):hover {
+  box-shadow: 1px 1px 0 0 rgba(0,0,0,0.2),
+    0 2px 1px 0 rgba(0,0,0,0.15),
+    0 6px 6px 0 rgba(0,0,0,0.08);
+  background-color: #2a2b2c;
+}
+.ellipsis{  /*使過長文章省略成為...*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  /*文本不會換行，文本會在在同一行上繼續*/
+    display: block; 
+}
+.separate {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	padding: 1em 0;
+	color: #2A2B2C;
+	font-size: .9em;
+	border-bottom: 1px solid #d5cdd6;
+}
+.separate i {
+	/*float: left;*/
+	display: inline-block;
+	vertical-align: middle; /*垂直線*/
+	width: 30%;
+	height: 100%;
+
+}
+.separate span {
+	/*float: right;*/
+	display: inline-block;
+	vertical-align: middle;
+	width: 65%;
+
+}
+figure.gw-3 {
+	margin-bottom: 2em;
+}
+figure.gw-3 figcaption{ color: #777;}
+footer {
+	margin-top: 10%;
+}
+#top {
+	content: " ";
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	line-height: 1;
+	padding: 5px 0;
+	margin-top: 30px;
+}
+*[src*="qr"] , .logo-wrap{  
+    /*"*"指向元素有src屬性,ex:iframe, script, source, img..., 且路徑內的"qr"文字須出現乙次,無論位置*/
+    width: 100px;  /*星號*萬用選擇器*/
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.logo-wrap{
+    border: 1px solid #E0DEE0;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+    background-color: #E0DEE0;
+}
+@media screen and (min-width:801px) and (max-width:1120px) {
+	figure.gw-3 {
+		width: 46%;
+		margin-right: 4%;
+		min-height: 15em;
+	}
+}
+
+@media screen and (min-width:300px) and (max-width:800px) {
+	header {
+		position: static;
+		height: auto;
+		min-height: 65vmin;
+	}
+	header .ng-6 {
+		width: 100%;
+		float: left;
+		display: block;
+		min-height: 50vmin;
+	}
+	header .ng-6,   header .ng-6:first-of-type p  {
+		position: static;
+
+	}
+	header h1 {
+		font-size: 2.8em;
+		line-height: 1.2;
+		padding: 30px 15px;
+	}
+	header h1 sup {
+		margin: 0 auto 20px auto;
+		font-size: 20px;
+	}
+	header ul {
+		float: left;
+		width: 96%;
+		border-top: 1px solid #ded3df;
+		margin: 10px 2%;
+		position: relative;
+
+	}
+	header li a, header p a {
+		font-size: 1.15em;
+	}
+	header h6 {
+		float: left;
+		margin: 15% 3%;
+		width: 94%;
+		min-width: 200px;
+		padding: 10px 15px;
+	}
+	header .mask, header .logo-graphic {
+		display: none;
+	}
+	nav {
+		display: none;
+	}
+	.main-region {
+		width: 100%;
+		float: left;
+		display: block;
+		position: relative;
+		margin: 0;
+
+	}
+	.main-region article h2,
+	.main-region article h1 {
+		text-align: center;
+	}
+	article .ng-6 .pd-box {
+		padding: 20px 0;
+	}
+    .ani-info {
+	display: block;
+/*	background-color: #F74E46;*/
+	padding: 10px 0;
+/*	color: #EEE6D7;*/
+	margin: 0 auto;
+	width: 140px;
+    border: 5 5 5 5px
+	text-align: center;
+	position: absolute;
+	left: -webkit-calc(50% - 70px);
+	left: -moz-calc(50% - 70px);
+	left: -o-calc(50% - 70px);
+	left: -ms-calc(50% - 70px);
+	left: calc(50% - 70px);
+	bottom: 0;
+	opacity:1;
+	font-size: .95em;
+}
+	.separate {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+		float: left;
+		padding: 1em 0;
+		color: #414244;
+		font-size: 1.05em;
+		border-bottom: 1px solid #d5cdd6;
+	}
+	.separate  i{
+		font-size: 90%;
+	}
+	figure.gw-3 figcaption{
+        color: 414244; font-size: 1.1em;
+    }
+    figure.gw-4 h5{
+        text-align: center;
+    }
+    figure.gw-4 figcaption{
+        text-align: center;
+    }
+	h1 .ui-link {
+		font-size: 70%;
+	}
+	.main-region article h2 + h5 {
+		font-size: 1.4em;
+		text-align: center;
+	}
+	.main-region article h5 {
+		margin-top: -10px;
+	}
+    footer{
+        text-align: center;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1120px)
+	and (orientation: portrait) {
+		body{ font-size: 110%;}
+		header {
+			position: relative;
+			height: auto;
+			min-height: 50vmin;
+			color:  #414244;
+			/*z-index: 1;*/
+
+			background: url("../images/header.jpg") no-repeat center center;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
+		header .ng-6 {
+			z-index: 0;
+			position: relative;
+			top:0;
+			bottom:0;
+			min-height: 60vmin;
+			border-bottom: none;
+			overflow: hidden;
+		}
+		header h6 {
+			font-size: 2em;
+			padding: 5% 10px;
+		}
+
+		header li a, header p a {
+			font-size: 1.3em;
+			position: static;
+			line-height: 3;
+		}
+		header h1 {
+			font-size: 9vw;
+			margin-top: 8%;
+		}
+		article p {
+			font-size: 1.2em;
+		}
+}

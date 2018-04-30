@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      prefix="fb: http://www.facebook.com/2008/fbml" xml:lang="zh-TW" lang="zh-TW"> <!--zh=華語區-->
+    <head>
+        <meta charset="UTF-8">
+        <title>HAO HSUAN</title>  <!--頁籤名稱-->
+        <link rel="shortcut icon" href="images/pageicon.png" type="image/vnd.microsoft.icon">
+        <!--給一般瀏覽器-->
+        <link rel="shortcut icon" href="images/pageicon.png" type="image/x-icon"> <!--給IE瀏覽器-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/rwd1.css" media="screen">
+        <meta http-equiv="cache-control" content="no-cache">  
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+        <meta name="HandheldFriendly" content="true">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta property="og:title" content="HAO HSUAN">
+        <meta property="og:description" content="鳳山分校 2016 RWD 單頁網頁設計樣版一">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.birteliu.clouds.twgogo.org/2016rwd1/">
+        <meta property="og:image"  
+              content="http://www.birteliu.clouds.twgogo.org/2016rwd1/images/fb.jpg">
+        <meta property="og:site_name" content="RWD Template">
+        <meta property="og:locale" content="zh_TW">
+        <meta property="og:locale:alternate" content="en_US">
+        <script>document.createElement('picture');</script>
+        <!--如果要做出分欄效果,用這個css寫
+<style>
+#a-works .ng-6{
+background-color: darkgrey;
+border: 8px solid #EEE6D7;
+border-top: none;
+border-bottom: none;
+}
+</style>
+-->
+    </head>
+    <body>
+
+        <!--
+<svg class="logo-graphic" viewBox="0 0 88 30">
+<use xlink:href="#svg-logo"></use>
+</svg> 
+-->
+        <div id="page" class="ui-bgc-light">
+            <nav class="ui-bac-light f-normal">
+                <div class="gw-12 omega pos-r">
+                    <!--
+<svg class="logo-bg" viewBox="0 0 3 .8"  
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspecRation="none">
+<svg x="0" y="0"  >
+<rect x="0" y="0" width="1.2" height="1.2" fill="#2B061E" />
+<rect x="1.5" y="0" width="1.8" height="1.2" fill="#f6f6f6" />
+</svg>
+<svg viewBox="0 0 88 30" class="logo-graphic" width="100%" x="0" >
+<use xlink:href="#svg-logo" />
+</svg>
+</svg>
+-->
+                    <img src="images/logo.svg" alt="" class="ui-img100">
+                </div>
+                <ul class="ui-menu anchor">
+                    <li><a href="#page" data-scroll>HOME</a></li>
+                    <li><a href="#a-works" data-scroll>WORKS</a></li>
+                    <li><a href="#a-about" data-scroll>ABOUT</a></li>
+                    <li><a href="#a-contact" data-scroll>CONTACT</a></li>
+                </ul>
+            </nav>
+            <header class="gw-12 omega" id="target">
+                <!--header markup-->
+                <div class="ng-6 ui-bgc-light">
+                    <h1 class="f-bold p-color ta-c"><sup class="block">WEBSITE</sup>
+                        Hao Hsuan
+                    </h1>
+                    <ul>
+                        <li><a href="#a-works" data-scroll>WORKS</a></li>
+                        <li><a href="#a-about" data-scroll>ABOUT</a></li>
+                        <li><a href="#a-contact" data-scroll>CONTACT</a></li>
+                    </ul>
+                    <!--<p><a href="javascript:void(0)">Click to see more</a></p>--><!--死連結-->
+                    <p><a href="javascript:alert('hello ni hao ma')">Click to see more</a></p>
+                    <!--警告視窗-->
+                    <div class="mask ui-bgc-light ta-c"><i class="icon-up-open"></i></div>
+                </div>
+                <div class="ng-6">
+                    <h6 class="tw ta-c">Hello, Ni Hao Ma?</h6>
+                    <div class="ng-12 pc ta-c">
+                        <a href="#a-about" class="ui-btn-l" data-scroll>Click</a>
+                    </div>
+                    <div class="mask ui-bgc-dark ta-c"><i class="icon-down-open"></i></div>
+                </div>
+                <img src="images/logo.svg" alt="" class="logo-graphic">
+            </header> <!--header寫在nav後面可以把header的大圖片壓在nav上面-->
+            <div class="main-region ui-bgc-light">
+                <article class="gw-12 omega pt-5" id="a-works">
+                    <section class="row-container cf">
+                        <h2 class="row-caption f-bold pb-1">WORKS</h2>
+                        <div class="row-inner">
+                            <div class="ng-6 f-bold pos-r">
+                                <a href="http://www.birteliu.pe.hu"
+                                   class="gw-12 omega" target="_blank">
+                                    <picture>
+                                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                        <source srcset="images/work3-1.jpg" 
+                                                media="(min-width: 1121px)">
+                                        <source srcset="images/work3-2.jpg" 
+                                                media="(min-width: 801px)">
+                                        <source srcset="images/work3-3.png" 
+                                                media="(min-width: 300px)">
+                                        <!--[if IE 9]></video><![endif]-->
+                                        <img srcset="images/work3-1.jpg" 
+                                             alt="works1" class="ui-img100">
+                                    </picture>
+                                    <span class="ani-info tw ui-btn-d">CLICK</span>
+                                </a><!--gw-12-->
+                            </div>
+                            <div class="ng-6">
+                                <div class="pd-box">
+                                    <h5 class="f=bold">First Website</h5>
+                                    <p class="tw p-color">高雄凱旋醫院營養師林鑾珍指出，以花椰菜來說，不論白花菜或綠花菜，都富含維生素A、B群、C及鉀、鈣、鐵等營養素，除了花球，花梗也可以吃，去除厚皮後，切塊一起炒即可，也可以切成薄片，稍微汆燙去菁，涼拌就很好吃，而且保留更多維生素C。菠菜含有豐富的維生素C、胡蘿蔔素。</p>
+                                </div>
+                            </div>
+                        </div> <!--row-inner-->
+                        <div class="row-inner">
+                            <div class="ng-6 f-bold pos-r">
+                                <a href="http://birteliu.clouds.twgogo.org/2016rwd_2"
+                                   class="gw-12 omega" target="_blank">
+                                    <picture>
+                                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                        <source srcset="images/work4-1.jpg" 
+                                                media="(min-width: 1121px)">
+                                        <source srcset="images/work4-2.jpg" 
+                                                media="(min-width: 801px)">
+                                        <source srcset="images/work4-3.jpg" 
+                                                media="(min-width: 300px)">
+                                        <!--[if IE 9]></video><![endif]-->
+                                        <img srcset="images/work4-1.jpg" 
+                                             alt="works1" class="ui-img100">
+                                    </picture>
+                                    <span class="ani-info tw ui-btn-d">CLICK</span>
+                                </a><!--gw-12-->
+                            </div>
+                            <div class="ng-6">
+                                <div class="pd-box">
+                                    <h5 class="f=bold">Second Website</h5>
+                                    <p class="tw p-color">高雄凱旋醫院營養師林鑾珍指出，以花椰菜來說，不論白花菜或綠花菜，都富含維生素A、B群、C及鉀、鈣、鐵等營養素，除了花球，花梗也可以吃，去除厚皮後，切塊一起炒即可，也可以切成薄片，稍微汆燙去菁，涼拌就很好吃，而且保留更多維生素C。菠菜含有豐富的維生素C、胡蘿蔔素、膳食纖維等，可延緩細胞老化、保護眼睛、促進腸胃蠕動，紫紅色的根部含有豐富的鐵質及纖維質，用來熬湯也不錯，但若口感接受度不高，也不必非吃不可。</p>
+                                </div>
+                            </div>
+                        </div> <!--row-inner-->
+                        <div class="row-inner">
+                            <div class="ng-6 f-bold pos-r">
+                                <a href="http://birteliu.clouds.twgogo.org/2016rwd_3"
+                                   class="gw-12 omega" target="_blank">
+                                    <picture>
+                                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                        <source srcset="images/work2-1.jpg" 
+                                                media="(min-width: 1121px)">
+                                        <source srcset="images/work2-2.jpg" 
+                                                media="(min-width: 801px)">
+                                        <source srcset="images/work2-3.jpg" 
+                                                media="(min-width: 300px)">
+                                        <!--[if IE 9]></video><![endif]-->
+                                        <img srcset="images/work2-1.jpg" 
+                                             alt="works1" class="ui-img100">
+                                    </picture>
+                                    <span class="ani-info tw ui-btn-d">CLICK</span>
+                                </a><!--gw-12-->
+                            </div>
+                            <div class="ng-6">
+                                <div class="pd-box">
+                                    <h5 class="f=bold">Third Website</h5>
+                                    <p class="tw p-color">高雄凱旋醫院營養師林鑾珍指出，以花椰菜來說，不論白花菜或綠花菜，都富含維生素A、B群、C及鉀、鈣、鐵等營養素，除了花球，花梗也可以吃，去除厚皮後，切塊一起炒即可，也可以切成薄片，稍微汆燙去菁，涼拌就很好吃，而且保留更多維生素C。菠菜含有豐富的維生素C，也不必非吃不可。</p>
+                                </div>
+                            </div>
+                        </div> <!--row-inner-->
+                        <div class="row-inner">
+                            <div class="ng-6 f-bold pos-r">
+                                <a href="http://birteliu.clouds.twgogo.org/2016rwd_4"
+                                   class="gw-12 omega" target="_blank">
+                                    <picture>
+                                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                        <source srcset="images/work1-1.jpg" 
+                                                media="(min-width: 1121px)">
+                                        <source srcset="images/work1-2.jpg" 
+                                                media="(min-width: 801px)">
+                                        <source srcset="images/work1-3.jpg" 
+                                                media="(min-width: 300px)">
+                                        <!--[if IE 9]></video><![endif]-->
+                                        <img srcset="images/work1-1.jpg" 
+                                             alt="works1" class="ui-img100">
+                                    </picture>
+                                    <span class="ani-info tw ui-btn-d">CLICK</span>
+                                </a><!--gw-12-->
+                            </div>
+                            <div class="ng-6">
+                                <div class="pd-box">
+                                    <h5 class="f=bold">Group Website</h5>
+                                    <p class="tw p-color">雄伯藝遊，高雄玩玩。</p>
+                                </div>
+                            </div>
+                        </div> <!--row-inner-->
+                    </section>
+                </article>
+                <article class="gw-12 omega pt-5" id="a-about">
+                    <section class="container cf">
+                        <h2 class="f-bold pb-1">ABOUT</h2>
+                        <div class="gw-12 omega">
+                            <div class="gw-4 omega">
+                                <img src="images/aboutimg.jpg" alt="" class="ui-img100">
+                            </div>
+                            <div class="gw-7">
+                                <h5 class="tw p-color pt-1">Persönliche Daten</h5>
+                                <p class="pt-15 p-color">Name - 劉豪萱 Liu Hao Hsuan<br>
+                                    Geburtsdaten - 1992 / 08 / 09<br>
+                                    Telefon - 0912345678<br>
+                                    Adresse - 高雄市三民區三123456號<br>
+                                    E-Mail - zyi870213@gmail.com
+                                    <a href="mailto:zyi870213@gmail.com" 
+                                       class="ui-link">&nbsp;Send me mail&nbsp;</a>
+                                </p>
+                                <div class="gw-12 omega">
+                                    <h5 class="gw-12 omega pt-3">
+                                        Education
+                                    </h5>
+                                    <p class="separate">
+                                        <i>2007 - 2010</i><span>國立高雄高商 - 綜合高中國際貿易科</span>
+                                    </p>
+                                    <p class="separate">
+                                        <i>2010 - 2014</i><span>國立高雄第一科技大學 - 應用德語系</span>
+                                    </p>
+                                    <h5 class="gw-12 omega pt-3">
+                                        Experience
+                                    </h5>
+                                    <p class="separate">
+                                        <i>2010 - 2014</i><span>飯店展場123</span>
+                                    </p>
+                                    <p class="separate">
+                                        <i>2014 - 2015</i><span>Deutschland</span>
+                                    </p>
+                                </div>
+                            </div>                            
+                            <div class="gw-1 pc">&nbsp;</div>
+                            <div class="gw-12 omega pd-32">
+                                <h2 class="f-bold pt-1 pb-05 p-c">Kenntnisse</h2>
+                                <figure class="gw-4 pd-1">
+                                    <h5 class="tw">EDV-Kenntnisse</h5>  
+                                    <figcaption class="tw  p-color">Photoshop<br>Illustrator
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gw-4  pd-1">
+                                    <h5 class="tw">Sprache</h5>  
+                                    <figcaption class="tw  p-color">Chinesisch - Muttersprache<br>
+                                        Deutsch<br>
+                                        Englisch
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gw-4 pd-1 omega">
+                                    <h5 class="tw">Hobby</h5>  
+                                    <figcaption class="tw p-color">happy<br>
+                                        so happy
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+                <article class="gw-12 omega pt-5" id="a-contact">
+                    <section class="container cf">
+                        <h2 class="f-bold pb-1">CONTACT</h2>
+                        <h5 class="p-color">快來連繫我hohoho<br>
+                        紫紅色的根部含有豐富的鐵質及纖維質</h5>
+                        <h3 class="f-bold pc p-color">Mail Me:
+                            <a href="mailto:zyi870213@gmail.com" 
+                               class="ui-link">zyi870213@gmail.com</a>
+                        </h3>
+                        <div class="ta-c">
+                            <h3 class="f-bold mobi pt-1 ta-c p-color">Call Me<br>
+                                <a href="tel:+886 919100324" class="ui-link">0912345678</a>
+                            </h3>
+                        </div>
+                        <div class="gw-12 omega ta-c pt-1 mobi">
+                            <a href="#page" class="icon-up-open" data-scroll id="top"></a>
+                        </div>
+                    </section>
+                </article>
+                <footer class="gw-12 omega ui-bgc-dark pt-1">
+                    <div class="container cf">
+                        <div class="gw-8 pt-05">
+                            <span class="logo-wrap">
+                                <img src="images/logo.svg" alt="" class="ui-img100">
+                            </span>
+                            <p><span class="block pb-1">Website by Hao Hsuan<br>
+                                2016 Copyright &copy; Liu Hao Hsuan
+                                </span>
+                            </p>
+                        </div>
+                        <div class="gw-4 omega pb-1 ta-r">
+                            <img src="images/qrcord.png" alt="qr code">
+                        </div>
+                    </div>
+                </footer>
+            </div>    
+        </div>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script> <!--data-scroll使比較緩慢的捲動-->
+        <script src="js/picturefill.min.js"></script>
+        <script src="js/2016.rwd.anchor.js"></script>
+        <svg version="1.1" id="objects" xmlns="http://www.w3.org/2000/svg" 
+             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 88 30" 
+             style="enable-background:new 0 0 88 30; display:none; width:0; height:0;" 
+             xml:space="preserve">
+            <defs>
+                <g id="svg-logo">
+                    <path id="XMLID_1_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#2A2B2C;" d="M66.8,26c6.1,0,11.1-5,11.1-11.1
+                                                                                                     c0-6.1-5-11.1-11.1-11.1c-6.1,0-11.1,5-11.1,11.1C55.8,21,60.7,26,66.8,26z"/>
+                    <path style="fill:#F74E46;" d="M10.2,25.5c0.1-1.3,0.1-8.4,0.1-9.2V13c0-0.5-0.1-8.3-0.2-9h7.1c-0.1,0.5-0.2,6.4-0.2,6.9v1.2
+                                                   l7.9-0.6v-1.3c0-0.5-0.1-5.6-0.1-6.3h7c0,0.7-0.1,9.2-0.1,9.9v3c0,0.4,0.1,7.9,0.1,8.5h-7c0-1,0.1-5.9,0.1-6.5v-2.3l-7.9,0.6v1.1
+                                                   c0,1.4,0.1,6.4,0.1,7.1H10.2z"/>
+                    <path style="fill:#2A2B2C;" d="M44.7,4.3h-0.3c-2.7,4-10.4,17.4-11.2,18.8l5.3,3c0.6-1.3,1.6-3.5,1.8-3.8l8.4-0.5
+                                                   c0.3,0.5,1.7,3,2.5,4.3l5.5-3.4C55.5,21.2,48.1,8.3,44.7,4.3z"/>
+                </g>
+
+            </defs>
+        </svg>
+
+    </body>
+</html>

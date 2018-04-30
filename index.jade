@@ -1,0 +1,139 @@
+//output:index.html
+doctype
+html(xmlns="http://www.w3.org/1999/xhtml" prefix="fb: http://www.facebook.com/2008/fbml" xml:lang="zh-TW" lang="zh-TW")
+
+   include ./jade/head.jade
+   
+   body
+     div#page.ui-bgc-light
+         nav.ui-bgc-light.f-n
+              div.gw-12.omega.pos-r
+                  svg.logo-bg(viewBox="0 0 3 .8" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspecRation="none")
+                      svg(x="0" y="0")
+                          rect(x="0" y="0" width="1.5" height="1.2" fill="#2B061E")/
+                          rect(x="1.5" y="0" width="1.5" height="1.2" fill="#f6f6f6")/
+                      svg(viewBox="0 0 100 30" class="logo-graphic" width="40%" x=".92")
+                          use(xlink:href="#svg-logo")/
+              ul.ui-menu.anchor
+                  li: a(href="#page" data-scroll) WELCOME
+                  li: a(href="#a-works" data-scroll) WORKS
+                  li: a(href="#a-about" data-scroll) ABOUT
+                  li: a(href="#a-contact" data-scroll) CONTACT
+          //- nav end  
+                        
+         header#target.gw-12.omega
+             div.ng-6.ui-bgc-light.f-n
+                h1.f-dec.ta-c 
+                  sup.block Who is.
+                  |I'm Fiona
+                    
+                ul.anchor
+                  li: a(href="#a-works" data-scroll) WORKS
+                  li: a(href="#a-about" data-scroll) ABOUT
+                  li: a(href="#a-contact" data-scroll) CONTACT
+                p: a(href="javascript:void(0)") FIND ME MORE
+                div.mask.ui-bgc-light.ta-c: i(class="icon-menu-1")
+             div.ng-6.f-n
+                h6.ta-c.cf.f-dec. 
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   minima aliquam aperiam, quae laudantium dolorem saepe fugit ad ullam nisi.
+                div.pt-1.ta-c.ng-12.pc
+                   a.ui-btn-l(data-scroll href="#a-works") WTACH
+                div.mask.ui-bgc-dark.ta-c: i(class="icon-down-open")
+             svg.logo-graphic(viewBox="0 0 100 30")
+                use(xlink:href="#svg-logo")/
+          //- header end  
+              
+         div.main-region.ui-bgc-light
+             article.gw-12.omega.pd-5(id="a-works")
+               section.container.cf.pd-1
+                 h2.f-dec.pb-1 WORKS
+                 include ./jade/works.jade
+               section.container.cf.pd-1
+                 include ./jade/works.jade
+               section.container.cf.pd-1
+                 include ./jade/works.jade
+             article.gw-12.omega(id="a-about")
+                section.container.cf.pd-1
+                  h2.f-b.pb-1 ABOUT
+                  div.gw-12.omega.pt-1
+                    div.gw-4.omega.pb-3
+                      img.ui-img100(src="images/about.svg" alt="")
+                    div.gw-6.f-dec
+                      p
+                       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sequi quidem iusto cumque ratione labore cupiditate nostrum error distinctio ab repellat saepe animi, facere nihil. Repellendus, sed incidunt! Laudantium, nesciunt.
+                      p.pt-3
+                       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, sint, in. Eum facere rerum laboriosam cum officiis neque quos iusto? 
+                       <br>
+                       | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, modi eos temporibus dolore tempore commodi. Hic quod iure, totam tempore.
+                       a.ui-link(href="mailto:aaa@gmail.com") &nbsp;send me mail
+                      div.gw-12.omega
+                        h5.f-b.pt-3.gw-12.omega
+                         | Education
+                        p.separate
+                         i 1911 ~ 1921
+                         span
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, aspernatur voluptatum veniam quidem, illo nostrum.
+                        p.separate
+                          i 1923 ~ 1999
+                          span
+                           | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore culpa incidunt a sequi quibusdam dolorem earum, nisi laudantium!
+                      div.gw-12.omega
+                        h5.f-b.pt-3.gw-12.omega
+                         | Experience
+                        p.separate
+                          i JOB 01
+                          span
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, aspernatur voluptatum veniam quidem, illo nostrum.
+                        p.separate
+                          i JOB 02
+                          span
+                           | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    //- 可有可無      
+                    div.gw-2.pc 
+                    div.gw-12.omega.pd-3
+                      h2.f-b.pb-1 BENEFITS
+                      figure.gw-4
+                        h5.block Benefits 01
+                        figcaption.block.pd-1
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id laborum similique perferendis molestias voluptate, accusamus voluptas culpa ab.
+                      figure.gw-4
+                        h5.block  Benefits 02
+                        figcaption.block.pd-1
+                         | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate porro tempora fugit, libero, sunt culpa. Vero eveniet consectetur, eaque cum.
+                      figure.gw-4.omega
+                        h5.block  Benefits 03
+                        figcaption.block.pd-1
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ex praesentium, quam amet tenetur, deserunt omnis, porro, molestiae saepe perferendis totam tempora rem dolorem sapiente. Voluptatibus, quidem, commodi!
+                      
+             article.gw-12.omega.pd-5(id="a-contact")
+                section.container.cf.pd-3
+                  h2.f-b.pb-1
+                   | CONTACT
+                  h4.f-n.ui-font-black3 
+                   |3Q for visit this site.
+                   br
+                   | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  h4.f-n.block.pt-3
+                   | Mail ME or Say Hello &nbsp;
+                   a.ui-link(href="mailto:example@gmail.com") example@gmail.com
+                  div.gw-12.omega.pt-1.mobi.ta-c
+                    a#top(href="#page" class="icon-up-open" data-scroll)
+             footer.gw-12.omega.ui-bgc-dark.f-dec
+                 div.container.cf.pt-3.pb-1
+                   p
+                    span.block WHO IS I'm Fiona
+                    | 2016 &copy; Hui Fang Wu, only for web design teaching, without any bussnes behavior.
+     script(src="js/jquery-1.11.3.min.js")
+     script(src="js/smooth-scroll.min.js")
+     script(src="js/picturefill.min.js")
+     script(src="js/2016.rwd.anchor.js")
+     svg(version="1.1" id="polygon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="6 0 88 30" style="enable-background:new 6 0 88 30; display: none; width:0; height:0;" xml:space="preserve")
+      style(text/css)
+       | .st0{fill:#F6F6F6;}
+       | .st1{fill:#2B061E;}
+      defs
+        
+          
